@@ -4,6 +4,8 @@ import class1 from '@/view/lesson/class/class'
 import study from '@/view/study/study'
 import find from '@/view/find/find'
 import my from '@/view/my/my'
+import Balance from '@/view/my/balance/balance'
+import Indent from '@/view/my/indent/indent'
 import Router from 'vue-router'
 Vue.use(Router)
 
@@ -12,7 +14,6 @@ export default new Router({
   routes: [
     {
       path: '/lesson',
-      name: 'lesson',
       component: lesson,
       children: [
         {
@@ -20,7 +21,7 @@ export default new Router({
           component: class1
         },
         {
-          path: '/',
+          path: '',
           redirect: 'class'
         }
       ]
@@ -37,8 +38,21 @@ export default new Router({
     },
     {
       path: '/my',
-      name: 'my',
-      component: my
+      component: my,
+      children: [
+        {
+          path: 'balance',
+          component: Balance
+        },
+        {
+          path: 'indent',
+          component: Indent
+        },
+        {
+          path: '',
+          redirect: 'balance'
+        }
+      ]
     },
     {
       path: '/',
