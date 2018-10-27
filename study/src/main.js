@@ -7,9 +7,12 @@ import '@/assets/css/reset.css'
 import scroll from '@/base/scroll'
 import axios from 'axios'
 import '@/assets/font/iconfont.css'
+import 'swiper/dist/css/swiper.css'
+import VueAwesomeSwiper from 'vue-awesome-swiper'
 Vue.config.productionTip = false
 Vue.prototype.$axios = axios
 Vue.component(scroll.name, scroll)
+Vue.use(VueAwesomeSwiper, {})
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
