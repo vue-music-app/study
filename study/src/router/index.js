@@ -5,10 +5,7 @@ import study from '@/view/study/study'
 import find from '@/view/find/find'
 import my from '@/view/my/my'
 import Router from 'vue-router'
-<<<<<<< HEAD
-import cmpmy from '@/components/my/my'
-=======
->>>>>>> 425d0bdfc74383ff3c2647ec1428cedb82d35974
+
 Vue.use(Router)
 
 export default new Router({
@@ -46,16 +43,7 @@ export default new Router({
     },
     {
       path: '/',
-<<<<<<< HEAD
-      redirect: 'cmpmy'
-    },
-    {
-      path: '/cmpmy',
-      name: 'cmpmy',
-      component: cmpmy
-=======
       redirect: 'lesson'
->>>>>>> 425d0bdfc74383ff3c2647ec1428cedb82d35974
     }
   ]
 })
