@@ -50,7 +50,7 @@ export default new Router({
         },
         {
           path: '',
-          redirect: 'balance'
+          redirect: 'indent'
         }
       ]
     },
