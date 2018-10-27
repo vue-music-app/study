@@ -1,15 +1,18 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
-
+import cmpmy from '@/components/my/my'
 Vue.use(Router)
 
 export default new Router({
   routes: [
     {
       path: '/',
-      name: 'HelloWorld',
-      component: HelloWorld
+      redirect: 'cmpmy'
+    },
+    {
+      path: '/cmpmy',
+      name: 'cmpmy',
+      component: cmpmy
     }
   ]
 })
