@@ -1,6 +1,5 @@
 <template>
   <div>
-    选课
     <router-view />
   </div>
 </template>
