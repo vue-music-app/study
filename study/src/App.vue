@@ -1,5 +1,37 @@
 <template>
+<<<<<<< HEAD
   <div id="app"><router-view/></div>
+=======
+  <div id="app">
+    <router-view/>
+      <ul class="navbar">
+        <li>
+          <router-link to='/lesson'>
+            <span class="iconfont icon-jiemubofang icon"></span>
+            <span class="text">选课</span>
+          </router-link>
+        </li>
+        <li>
+          <router-link to='/study'>
+            <span class="iconfont icon-xuexizhongxin icon"></span>
+            <span class="text">学习</span>
+          </router-link>
+        </li>
+        <li>
+          <router-link to='/find'>
+            <span class="iconfont icon-weibiaoti2fuzhi15 icon"></span>
+            <span class="text">发现</span>
+          </router-link>
+        </li>
+        <li>
+          <router-link to='/my'>
+            <span class="iconfont icon-wo icon"></span>
+            <span class="text">我</span>
+          </router-link>
+        </li>
+      </ul>
+  </div>
+>>>>>>> 425d0bdfc74383ff3c2647ec1428cedb82d35974
 </template>
 
 <script>
@@ -8,6 +40,41 @@ export default {
 }
 </script>
 
+<<<<<<< HEAD
 <style>
 
+=======
+<style lang="scss" scoped>
+  .navbar{
+    position:fixed;
+    bottom:0px;
+    left:0;
+    width:100vw;
+    display:flex;
+    flex-direction: row;
+    background: #fff;
+    justify-content: space-around;
+    li{
+      a{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color:#ccc;
+        .icon{
+          font-size:25px;
+        }
+        .text{
+          font-size:10px;
+          line-height:20px;
+        }
+      }
+      a.active{
+        span{
+          color:red;
+        }
+      }
+    }
+  }
+>>>>>>> 425d0bdfc74383ff3c2647ec1428cedb82d35974
 </style>
