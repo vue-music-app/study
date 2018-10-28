@@ -11,7 +11,8 @@ export default {
   mounted () {
     this.scroll = new BScroll(this.$refs.scroll, {
       probeType: 3,
-      scrollX: true
+      scrollX: true,
+      scrollY: true
     })
   }
 }
