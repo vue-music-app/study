@@ -46,7 +46,7 @@
       <div class="bottom-box">
         <div class="box-left">
           <span class="iconfont icon-qiahao"></span>
-          <span class="bottom-text">我的余额</span>
+          <span class="bottom-text">优惠卷</span>
         </div>
         <div class="box-right">
           <span class="iconfont icon-iconfonti"></span>
@@ -55,7 +55,7 @@
       <div class="bottom-box">
         <div class="box-left">
           <span class="iconfont icon-qiahao"></span>
-          <span class="bottom-text">我的余额</span>
+          <span class="bottom-text">赠课卡</span>
         </div>
         <div class="box-right">
           <span class="iconfont icon-iconfonti"></span>
@@ -63,8 +63,8 @@
       </div>
       <div class="bottom-box">
         <div class="box-left">
-          <span class="iconfont icon-qiahao"></span>
-          <span class="bottom-text">我的余额</span>
+          <span class="iconfont icon-kefu"></span>
+          <span class="bottom-text">客服中心</span>
         </div>
         <div class="box-right">
           <span class="iconfont icon-iconfonti"></span>
@@ -72,8 +72,8 @@
       </div>
       <div class="bottom-box">
         <div class="box-left">
-          <span class="iconfont icon-qiahao"></span>
-          <span class="bottom-text">我的余额</span>
+          <span class="iconfont icon-kaquan"></span>
+          <span class="bottom-text">兑换站</span>
         </div>
         <div class="box-right">
           <span class="iconfont icon-iconfonti"></span>
