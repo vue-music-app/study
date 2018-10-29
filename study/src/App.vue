@@ -5,25 +5,25 @@
         <li>
           <router-link to='/lesson'>
             <span class="iconfont icon-jiemubofang icon"></span>
-            <span class="text">选课</span>
+            <span class="text1">选课</span>
           </router-link>
         </li>
         <li>
           <router-link to='/study'>
             <span class="iconfont icon-xuexizhongxin icon"></span>
-            <span class="text">学习</span>
+            <span class="text1">学习</span>
           </router-link>
         </li>
         <li>
           <router-link to='/find'>
             <span class="iconfont icon-weibiaoti2fuzhi15 icon"></span>
-            <span class="text">发现</span>
+            <span class="text1">发现</span>
           </router-link>
         </li>
         <li>
           <router-link to='/my'>
             <span class="iconfont icon-wo icon"></span>
-            <span class="text">我</span>
+            <span class="text1">我</span>
           </router-link>
         </li>
       </ul>
@@ -56,7 +56,7 @@ export default {
         .icon{
           font-size:25px;
         }
-        .text{
+        .text1{
           font-size:10px;
           line-height:20px;
         }
