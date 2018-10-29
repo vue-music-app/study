@@ -1,7 +1,5 @@
 <template>
-<<<<<<< HEAD
-  <div id="app"><router-view/></div>
-=======
+
   <div id="app">
     <router-view/>
       <ul class="navbar">
@@ -31,7 +29,6 @@
         </li>
       </ul>
   </div>
->>>>>>> 425d0bdfc74383ff3c2647ec1428cedb82d35974
 </template>
 
 <script>
@@ -40,10 +37,6 @@ export default {
 }
 </script>
 
-<<<<<<< HEAD
-<style>
-
-=======
 <style lang="scss" scoped>
   .navbar{
     position:fixed;
@@ -76,5 +69,4 @@ export default {
       }
     }
   }
->>>>>>> 425d0bdfc74383ff3c2647ec1428cedb82d35974
 </style>

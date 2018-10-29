@@ -4,6 +4,7 @@ import class1 from '@/view/lesson/class/class'
 import study from '@/view/study/study'
 import find from '@/view/find/find'
 import my from '@/view/my/my'
+import set from '@/view/my/set'
 import Router from 'vue-router'
 
 Vue.use(Router)
@@ -39,7 +40,13 @@ export default new Router({
     {
       path: '/my',
       name: 'my',
-      component: my
+      component: my,
+      children: [
+        {
+          path: 'set',
+          component: set
+        }
+      ]
     },
     {
       path: '/',
